@@ -1,0 +1,156 @@
+@import'common'; 
+
+header{
+    width: 100%;
+    height: 48px;
+    background: #8E488E;
+    color: white;
+    line-height: 48px;
+    text-align: center;
+}
+header{
+   h1{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 30px;
+        position: relative;
+        top: -7px;
+    }
+    span{
+        float: right;
+        margin-right: 4%;
+        padding-top: 5px;
+    }
+    .fa-search{
+        font-size: 18px;
+        position: relative;
+        top: 10px;
+        left: -3px;
+    }
+}
+#centerContainer{
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    right: 0px;
+    bottom: 53px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    img{
+        display: block;
+    }
+    #banner{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .classifyTitle{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .classify{
+        width: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        .top{
+            -webkit-box-flex: 1;
+            img{
+                width: 100%;
+            }
+        }
+        .bottom{
+            -webkit-box-flex: 1;
+            display: -webkit-box;
+            div{
+                -webkit-box-flex: 1;
+                img{
+                    width: 100%;
+                    border: 5px solid #fff;
+                    border-top: 2px solid #fff;
+                    border-bottom: 2px solid #fff;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+    .recommend{
+        background: rgb(241,245,246);
+        img{
+            width: 100%;
+        }
+        .recommendBox{
+            width: 100%;
+            padding-top: 5px;
+            background: #fff;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            img{
+                width: 96%;
+                margin: 0 auto;
+            }
+            h4{
+                font-size: 14px;
+                margin-left: 2%;
+                color: #19AA8D;
+                font-weight: normal;
+            }
+        }
+    }
+}
+#backToTop{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 60px;
+    right: 15px;
+    background: rgba(0,0,0,0.3);
+    z-index: 10;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+#loading{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom:0px;
+    background: rgba(255,255,255,0.3);
+    z-index: 20;
+    display: none;
+    .lodingBox{
+        width: 60px;
+        margin: 80% auto;
+        .lodingBall{
+            width: 20px;
+            height: 20px;
+            border-radius: 100%;
+            background: #8E488E;
+            float: left;
+            animation: scale .5s alternate infinite;
+        }
+        .ball2{
+            animation: scale .5s alternate infinite;
+            animation-delay: .25s;
+        }
+        @keyframes scale{
+            0%{
+                transform: scale(0.3)
+            }
+            100%{
+                transform: scale(1)
+            }
+        }
+    }
+}
+

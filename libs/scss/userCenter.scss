@@ -1,0 +1,144 @@
+@import'common';
+
+header{
+    width: 100%;
+    height: 48px;
+    background: #8E488E;
+    color: white;
+    line-height: 48px;
+    text-align: center;
+    .back{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .classifyMenu{
+        position: absolute;
+        left: -120px;
+        background: rgba(80,90,101,0.9);
+        a{
+            color: white; 
+        }
+    }
+    .btn{
+        background: #8E488E;
+        color: white;
+        border: none;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: white;
+    }
+}
+
+#centerContainer{
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    right: 0px;
+    bottom: 53px;
+    background: rgb(241,245,246);
+    .menberInfo{
+        color: #FFFFFF;
+        width: 100%;
+        height: 75px;
+        background: url(../images/61.jpg) -112px -129px no-repeat;
+        padding-top: 15px;
+        .portrait{
+            width: 50px;
+            height: 50px;
+            background: #FFFFFF;
+            border-radius: 100%;
+            overflow: hidden;
+            img{
+                width: 100%;
+            }
+        }
+        .littlePortrait{
+            width: 15px;
+            height: 15px;
+        }
+        .menberNo{
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 3px;
+            font-weight: bold;
+        }
+        .menberRange{
+            font-weight: bold;
+        }
+        .more{
+            font-size: 26px;
+            margin-top: 5px;
+            margin-left: 14px;
+        }
+    }
+    .currency{
+        text-align: center;
+        background: #FFFFFF;
+        width: 100%;
+        height: 60px;
+        padding-top: 10px;
+        .centerBox{
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }
+        .bold{
+            font-size: 18px;
+        }
+        .gray{
+            font-size: 12px;
+        }
+    }
+    .menberList{
+        margin-top: 10px;
+        .right{
+            float: right;
+            position: relative;
+            left: 40px;
+            font-size: 18px;
+            color: rgb(153,154,155);
+        }
+        img{
+            width: 30px;
+            margin-right: 5px;
+        }
+        .badge{
+            margin-right: 20px;
+            background: deepskyblue;
+            color: white;
+        }
+        .menberRangeList{
+            height: 55px;
+            padding-top: 18px;
+        }
+//      .menberLogo{
+//          display: inline-block;
+//          width: 30px;
+//          background: #000000;
+//          height: 30px;
+//          float: left;
+//          border-radius: 100%;
+//      }  
+    }
+    .menberOther{
+        margin-top: 10px;
+        .menberRangeList{
+            height: 55px;
+            padding-top: 18px;
+        }
+        img{
+            width: 30px;
+            margin-right: 5px;
+        }
+        .right{
+            float: right;
+            font-size: 18px;
+            color: rgb(153,154,155);
+        }
+    }
+}

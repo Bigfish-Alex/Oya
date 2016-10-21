@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft Yahei";
+}
+
+.clear {
+  width: 100%;
+  height: 1px;
+  clear: both;
+  overflow: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #98999a;
+}
+
+header {
+  width: 100%;
+  height: 48px;
+  background: #8E488E;
+  color: white;
+  line-height: 48px;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 30px;
+  position: relative;
+  top: -7px;
+}
+header span {
+  float: right;
+  margin-right: 4%;
+  padding-top: 5px;
+}
+header .fa-search {
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+  left: -3px;
+}
+
+#centerContainer {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  right: 0px;
+  bottom: 53px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#centerContainer img {
+  display: block;
+}
+#centerContainer #banner {
+  width: 100%;
+}
+#centerContainer #banner img {
+  width: 100%;
+}
+#centerContainer .classifyTitle {
+  width: 100%;
+}
+#centerContainer .classifyTitle img {
+  width: 100%;
+}
+#centerContainer .classify {
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+#centerContainer .classify .top {
+  -webkit-box-flex: 1;
+}
+#centerContainer .classify .top img {
+  width: 100%;
+}
+#centerContainer .classify .bottom {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+}
+#centerContainer .classify .bottom div {
+  -webkit-box-flex: 1;
+}
+#centerContainer .classify .bottom div img {
+  width: 100%;
+  border: 5px solid #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+}
+#centerContainer .recommend {
+  background: #f1f5f6;
+}
+#centerContainer .recommend img {
+  width: 100%;
+}
+#centerContainer .recommend .recommendBox {
+  width: 100%;
+  padding-top: 5px;
+  background: #fff;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+#centerContainer .recommend .recommendBox img {
+  width: 96%;
+  margin: 0 auto;
+}
+#centerContainer .recommend .recommendBox h4 {
+  font-size: 14px;
+  margin-left: 2%;
+  color: #19AA8D;
+  font-weight: normal;
+}
+
+#backToTop {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 60px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#loading {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 20;
+  display: none;
+}
+#loading .lodingBox {
+  width: 60px;
+  margin: 80% auto;
+}
+#loading .lodingBox .lodingBall {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: #8E488E;
+  float: left;
+  animation: scale .5s alternate infinite;
+}
+#loading .lodingBox .ball2 {
+  animation: scale .5s alternate infinite;
+  animation-delay: .25s;
+}
+@keyframes scale {
+  0% {
+    transform: scale(0.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

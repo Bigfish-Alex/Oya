@@ -1,0 +1,157 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft Yahei";
+}
+
+.clear {
+  width: 100%;
+  height: 1px;
+  clear: both;
+  overflow: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #98999a;
+}
+
+header {
+  width: 100%;
+  height: 48px;
+  background: #8E488E;
+  color: white;
+  line-height: 48px;
+  text-align: center;
+}
+header .back {
+  font-size: 20px;
+}
+header .title {
+  font-size: 16px;
+}
+header .classifyMenu {
+  position: absolute;
+  left: -120px;
+  background: rgba(80, 90, 101, 0.9);
+}
+header .classifyMenu a {
+  color: white;
+}
+header .btn {
+  background: #8E488E;
+  color: white;
+  border: none;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: white;
+}
+
+#centerContainer {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  right: 0px;
+  bottom: 53px;
+  background: #f1f5f6;
+}
+#centerContainer .menberInfo {
+  color: #FFFFFF;
+  width: 100%;
+  height: 75px;
+  background: url(../images/61.jpg) -112px -129px no-repeat;
+  padding-top: 15px;
+}
+#centerContainer .menberInfo .portrait {
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#centerContainer .menberInfo .portrait img {
+  width: 100%;
+}
+#centerContainer .menberInfo .littlePortrait {
+  width: 15px;
+  height: 15px;
+}
+#centerContainer .menberInfo .menberNo {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+#centerContainer .menberInfo .menberRange {
+  font-weight: bold;
+}
+#centerContainer .menberInfo .more {
+  font-size: 26px;
+  margin-top: 5px;
+  margin-left: 14px;
+}
+#centerContainer .currency {
+  text-align: center;
+  background: #FFFFFF;
+  width: 100%;
+  height: 60px;
+  padding-top: 10px;
+}
+#centerContainer .currency .centerBox {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+#centerContainer .currency .bold {
+  font-size: 18px;
+}
+#centerContainer .currency .gray {
+  font-size: 12px;
+}
+#centerContainer .menberList {
+  margin-top: 10px;
+}
+#centerContainer .menberList .right {
+  float: right;
+  position: relative;
+  left: 40px;
+  font-size: 18px;
+  color: #999a9b;
+}
+#centerContainer .menberList img {
+  width: 30px;
+  margin-right: 5px;
+}
+#centerContainer .menberList .badge {
+  margin-right: 20px;
+  background: deepskyblue;
+  color: white;
+}
+#centerContainer .menberList .menberRangeList {
+  height: 55px;
+  padding-top: 18px;
+}
+#centerContainer .menberOther {
+  margin-top: 10px;
+}
+#centerContainer .menberOther .menberRangeList {
+  height: 55px;
+  padding-top: 18px;
+}
+#centerContainer .menberOther img {
+  width: 30px;
+  margin-right: 5px;
+}
+#centerContainer .menberOther .right {
+  float: right;
+  font-size: 18px;
+  color: #999a9b;
+}
+
+/*# sourceMappingURL=userCenter.css.map */

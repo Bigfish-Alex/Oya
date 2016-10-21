@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft Yahei";
+}
+
+.clear {
+  width: 100%;
+  height: 1px;
+  clear: both;
+  overflow: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #98999a;
+}
+
+header {
+  width: 100%;
+  height: 48px;
+  background: #8E488E;
+  color: white;
+  line-height: 48px;
+  text-align: center;
+}
+header .back {
+  font-size: 20px;
+}
+header .title {
+  font-size: 16px;
+}
+header .classifyMenu {
+  position: absolute;
+  left: -120px;
+  background: rgba(80, 90, 101, 0.9);
+}
+header .classifyMenu a {
+  color: white;
+}
+header .btn {
+  background: #8E488E;
+  color: white;
+  border: none;
+}
+header a {
+  color: white;
+}
+header a:hover {
+  color: white;
+}
+
+#centerContainer {
+  width: 100%;
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  right: 0px;
+  bottom: 53px;
+  overflow: hidden;
+  background: #f1f5f6;
+}
+#centerContainer .menu {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+  height: 45px;
+  z-index: 10;
+  box-shadow: 0px 2px 13px 0px #ccc;
+}
+#centerContainer .menu div {
+  height: 28px;
+  line-height: 28px;
+  border-right: 1px solid #ccc;
+}
+#centerContainer .menu div:last-child {
+  border: none;
+}
+#centerContainer .menu .fa {
+  transition: all 1s;
+}
+#centerContainer .contentBox {
+  position: absolute;
+  top: 46px;
+  bottom: 1px;
+  width: 100%;
+  z-index: 1;
+  overflow: hidden;
+}
+#centerContainer .contentBox a {
+  color: black;
+}
+#centerContainer .contentBox .productBox {
+  width: 47%;
+  height: 240px;
+  display: inline-block;
+  background: white;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#centerContainer .contentBox .productBox img {
+  width: 100%;
+  height: 200px;
+}
+#centerContainer .contentBox .productBox span {
+  font-size: 12px;
+  padding-left: 5px;
+}
+#centerContainer .contentBox .productBox i {
+  font-style: normal;
+}
+#centerContainer .triMenu {
+  position: absolute;
+  top: 46px;
+  bottom: 1px;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+  background: #FFFFFF;
+  display: none;
+}
+#centerContainer .triMenu div {
+  width: 33.3%;
+  float: left;
+  height: 100%;
+}
+#centerContainer .triMenu .left {
+  background: #e9e9e9;
+}
+#centerContainer .triMenu .left ul {
+  width: 100%;
+}
+#centerContainer .triMenu .left ul li {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+#centerContainer .triMenu .middle {
+  background: #f2f2f2;
+  text-align: center;
+  display: none;
+}
+#centerContainer .brandSlide {
+  position: absolute;
+  top: 46px;
+  bottom: 1px;
+  width: 100%;
+  z-index: 10;
+  overflow: hidden;
+  background: #f2f2f2;
+  display: none;
+}
+
+.rotate {
+  transform: rotateX(-180deg);
+}
+
+/*# sourceMappingURL=womenZuzuiList.css.map */

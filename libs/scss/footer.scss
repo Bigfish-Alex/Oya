@@ -1,0 +1,30 @@
+@import'common';
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px; 
+    border-top: 1px solid #ccc;
+    padding-top: 5px;
+}
+footer div{
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 48px;
+    line-height: 17px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #777777;
+    a{
+        width: 100%;
+        display: inline-block;
+        height: 100%;
+        color: #777777;
+        text-decoration: none;
+    }
+    a:active{
+        color: #777777;
+        text-decoration: none;
+    }
+}

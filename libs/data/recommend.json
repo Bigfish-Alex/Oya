@@ -1,0 +1,18 @@
+[
+	[
+		{"name":"津率享红华凝香平衡液","src":"libs/images/1.jpg","price":"140","locateTo":"details.html?id=1"},
+		{"name":"津率享红华凝香平衡液","src":"libs/images/2.jpg","price":"120","locateTo":"details.html?id=2"},
+		{"name":"津率享红华凝香平衡液","src":"libs/images/3.jpg","price":"130","locateTo":"details.html?id=3"},
+		{"name":"津率享红华凝香平衡液","src":"libs/images/4.jpg","price":"140","locateTo":"details.html?id=4"},
+		{"name":"津率享红华凝香平衡液","src":"libs/images/5.jpg","price":"110","locateTo":"details.html?id=5"},
+		{"name":"津率享红华凝香平衡液","src":"libs/images/6.jpg","price":"130","locateTo":"details.html?id=6"}
+	],
+	[
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/1.jpg","price":"140","locateTo":"details.html?id=7"},
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/2.jpg","price":"120","locateTo":"details.html?id=8"},
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/3.jpg","price":"130","locateTo":"details.html?id=9"},
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/4.jpg","price":"140","locateTo":"details.html?id=10"},
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/5.jpg","price":"110","locateTo":"details.html?id=11"},
+		{"name":"斯文印花黑灰色短袖连衣裙","src":"libs/images/6.jpg","price":"130","locateTo":"details.html?id=12"}
+	]
+]

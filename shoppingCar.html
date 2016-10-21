@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="libs/font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/css/shoppingCar.css"/>
+		
+		<script src="libs/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/iscroll/build/iscroll-probe.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/shoppingCar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="col-xs-2">
+				<span class="fa fa-angle-left back"></span>
+			</div>
+			<div class="col-xs-8">
+				<span class="title">购物车</span>
+			</div>
+			<div class="col-xs-2 ">
+				<div class="dropdown">
+				  <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				    <span class="glyphicon glyphicon-list classifyBtn"></span>
+				  </button>
+				  <ul class="dropdown-menu classifyMenu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">首页</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="classify.html">分类</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="shoppingCar.html">购物车</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="userCenter.html">个人中心</a></li>
+				  </ul>
+				</div>
+			</div>
+		</header>
+		<div id="centerContainer">
+			<div id="scroller">
+				<!--<div class="carBox">
+					<div class="col-xs-1 checkbox">
+						<i class="fa fa-circle-o"></i>
+					</div>
+					<div class="col-xs-3 goodsPic">
+						<div class="goodsPic">
+							<img src="libs/images/54.jpg"/>
+						</div>
+					</div>
+					<div class="col-xs-8 bottomBox">
+						<div class="titleBox">
+							<p class="goodsName">斯文印花黑灰色短袖连衣裙</p>
+						</div>
+						￥<span class="goodsPrice">140</span>
+						<div class="changeNum">
+							<span class="fa fa-minus"></span>
+							<span class="buyNum">1</span>
+							<span class="fa fa-plus"></span>
+						</div>
+						<i class="fa fa-trash-o"></i>
+					</div>
+				</div>-->
+			</div>
+		</div>
+		<footer>
+			<div class="col-xs-3 selectAll">
+				<i class="fa fa-circle-o"></i><span>全选</span>
+			</div>
+			<div class="col-xs-4 payWays">
+				支付方式&nbsp;<i class="fa fa-angle-right"></i>
+			</div>
+			<div class="col-xs-5 payConfirm">
+				确认并支付(<span>0</span>)&nbsp;<i class="fa fa-angle-right"></i>
+			</div>
+		</footer>
+	</body>
+</html>
