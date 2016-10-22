@@ -9,6 +9,19 @@ $(function(){
 		window.history.back();
 	})
 	
+	//选择支付方式
+	$('.payWays').click(function(){
+		$('#payWaysChoose').show();
+	})
+	$('.leftPay').click(function(){
+		$('#payWaysChoose').hide();
+		console.log("余额支付")
+	})
+	$('.wechatPay').click(function(){
+		$('#payWaysChoose').hide();
+		console.log("微信支付")
+	})
+	
 	//获取carStorage里数据进行填充
 	if( localStorage.getItem('carStorage') ){
 		var carJson=JSON.parse( localStorage.getItem('carStorage') );

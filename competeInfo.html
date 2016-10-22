@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/font-awesome-4.6.3/css/font-awesome.min.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/css/city-picker.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/css/citymain.css"/>
+		<link rel="stylesheet" type="text/css" href="libs/css/competeInfo.css"/>
+		
+		<script src="libs/js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/city-picker.data.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/city-picker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/citymain.js" type="text/javascript" charset="utf-8"></script>
+		<script src="libs/js/competeInfo.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<header>
+			<div class="col-xs-2">
+				<span class="fa fa-angle-left back"></span>
+			</div>
+			<div class="col-xs-8">
+				<span class="title">我的资料</span>
+			</div>
+			<div class="col-xs-2 ">
+				<!--<span class="glyphicon glyphicon-list"></span>-->
+				<div class="dropdown">
+				  <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+				    <!--Dropdown-->
+				    <!--<span class="caret"></span>-->
+				    <span class="glyphicon glyphicon-list classifyBtn"></span>
+				  </button>
+				  <ul class="dropdown-menu classifyMenu" role="menu" aria-labelledby="dropdownMenu1">
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="index.html">首页</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="classify.html">分类</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">购物车</a></li>
+				    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">个人中心</a></li>
+				  </ul>
+				</div>
+			</div>
+		</header>
+		<div id="centerContainer">
+			<div class="inputBox">
+		        <div class="input-group">
+		            <span class="input-group-addon">昵称</span>
+		            <input type="text" class="form-control" placeholder="YOURNAME">
+		        </div>
+		        <br>
+		        <div class="input-group">
+		            <span class="input-group-addon">手机号</span>
+		            <input type="text" class="form-control" placeholder="YOURPHONE">
+		        </div>
+			</div>
+			
+			<h2>请选择您的地址</h2>
+			<div class="docs-methods">
+				<form class="form-inline">
+					<div id="distpicker">
+						<div class="form-group">
+							<div style="position: relative;">
+								<input id="city-picker3" class="form-control" readonly type="text" value="广东省/广州市/天河区" data-toggle="city-picker">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			
+			<div class="input-group detailAddress">
+	            <input type="text" class="form-control" placeholder="详细地址补充">
+	        </div>			
+			
+			<span class="address"></span>
+			
+			<button type="button" class="btn btn-primary submit">提交</button>
+		</div>
+		
+		
+		<div id="footer">
+			
+		</div>
+	</body>
+</html>

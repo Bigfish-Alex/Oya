@@ -53,6 +53,20 @@ header a:hover {
   color: white;
 }
 
+#payWaysChoose {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  text-align: center;
+  padding-top: 67%;
+  display: none;
+}
+
 #centerContainer {
   width: 100%;
   position: absolute;

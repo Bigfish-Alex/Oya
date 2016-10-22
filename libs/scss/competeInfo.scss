@@ -1,0 +1,74 @@
+@import'common';
+
+header{
+    width: 100%;
+    height: 48px;
+    background: #8E488E;
+    color: white;
+    line-height: 48px;
+    text-align: center;
+    .back{
+        font-size: 20px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    .classifyMenu{
+        position: absolute;
+        left: -120px;
+        background: rgba(80,90,101,0.9);
+        a{
+            color: white; 
+        }
+    }
+    .btn{
+        background: #8E488E;
+        color: white;
+        border: none;
+    }
+    a{
+        color: white;
+    }
+    a:hover{
+        color: white;
+    }
+}
+#centerContainer{
+    width: 100%;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    right: 0px;
+    bottom: 53px;
+    .inputBox{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .docs-methods{
+        width: 93%;
+        margin: 0 auto;
+    }
+    h2{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .detailAddress{
+        width: 93%;
+        margin: 0 auto;
+    }
+    .address{
+        display: block;
+        width: 93%;
+        margin: 5px auto;
+        color: #8E488E;
+    }
+    button{
+        display: block;
+        width: 93%;
+        margin: 10px auto;
+        
+    }
+}
