@@ -61,6 +61,8 @@ header a:hover {
   right: 0px;
   bottom: 53px;
   background: #f1f5f6;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 #centerContainer .menberInfo {
   color: #FFFFFF;
